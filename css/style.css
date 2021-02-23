@@ -1,0 +1,85 @@
+@font-face {
+	font-family: AvertaRegular; 
+	src: url("../fonts/AvertaRegular/AvertaRegular.eot"); 
+	src: url("../fonts/AvertaRegular/AvertaRegular.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/AvertaRegular/AvertaRegular.woff") format("woff"), 
+	url("../fonts/AvertaRegular/AvertaRegular.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
+
+body {
+	font-family: AvertaRegular, sans-serif;
+	width: 100%;
+	margin: 0;
+}
+
+.container {
+	width: 52%;
+	min-width: 800px;
+	margin: 0 auto;
+}
+
+.head {
+	width: 100%;
+	height: 82vh;
+	min-height: 886px;
+	background-image: url("../img/water.jpg");
+	background-size: 100%;
+
+}
+
+.head__logo {
+	padding: 7.2vh 0 12.7vh 0;
+	position: absolute;
+}
+
+.logo-icon {
+	width: 186px;
+	height: 45px;
+}
+
+.head__description {
+	font-size: 2.5vw;
+	font-weight: 500;
+	line-height: 1.1em;
+	letter-spacing: 0em;
+	text-align: left;
+	width: 100%;
+	margin: 0 auto;
+	padding: 24vh 0 15vh 0;
+}
+
+.head__row {
+	font-size: 14px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	line-height: 1.6;
+}
+
+.invest {
+	color: white;
+	font-size: 16px;
+	background: #3C48EE;
+	border: none;
+	border-radius: 39px;
+	width: 14.64vw;
+	height: 3.28vw;
+}
+
+.head__address {
+	display: flex;
+	align-items: start;
+}
+
+.address-icon {
+	margin: 4px 5px 0 0;
+}
+
+@media screen and (max-width: 1440px) {
+
+	.head__description {
+		font-size: 35px;
+	}
+}
